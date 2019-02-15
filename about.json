@@ -1,7 +1,7 @@
 {
-  "name": "Vincent",
+  "name": "Collider Lighthouse",
   "about_url": "https://meta.discourse.org/t/76662/",
-  "license_url": "https://github.com/hnb-ku/discourse-vincent-theme/blob/master/LICENSE",
+  "license_url": "https://github.com/mmpmm/discourse-vincent-theme/blob/master/LICENSE",
    "assets": {
         "vincent-background": "assets/vincent-background.svg"
    },
