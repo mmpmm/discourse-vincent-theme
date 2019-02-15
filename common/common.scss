@@ -54,7 +54,7 @@ $i: !important;
 
 $v-font-weight: 300 !default;
 $v-font-size: 1.1em !default;
-$v-theme-background: url(#{$theme_background}) !default;
+$v-theme-background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%) !default;
 $v-hue: 0 !default;
 $v-saturation: -25 !default;
 $v-lightness: 0 !default;
@@ -70,7 +70,7 @@ $theme-base: hsl(
   !default;
 $theme-trim: $quaternary !default;
 
-$main-background: rgba($header_background, 0.9) !default;
+$main-background:  radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%) !default;
 $secondary-background: rgba($main-background, 0.5) !default;
 $tertiary-background: rgba($main-background, 0.8) !default;
 $text-base: reverse-lightness($secondary) !default;
