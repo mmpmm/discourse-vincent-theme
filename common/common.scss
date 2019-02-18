@@ -54,7 +54,7 @@ $i: !important;
 
 $v-font-weight: 300 !default;
 $v-font-size: 1.1em !default;
-$v-theme-background: url(#{$theme_background}) !default;
+$v-theme-background: url(#{$theme_background}) !important;
 $v-hue: 0 !default;
 $v-saturation: -25 !default;
 $v-lightness: 0 !default;
@@ -83,7 +83,7 @@ $link-color: lighten($theme-base, 25%) !default;
 
 $body-background-pattern-opacity: 0.25 !default;
 $body-background-gradient-opacity: 0.95 !default;
-$body-gradient-color-first: #e1e1e1;
+$body-gradient-color-first: #0000ff;
 $body-gradient-color-second: #0000ff; 
 $highlight-speed: #{$highlight_duration}s !default;
 $button-text-case: #{$button_text_case} !default;
@@ -958,7 +958,6 @@ body:before {
   background-position: center center;
   background-size: cover;
   z-index: -1;
-  opacity: $body-background-pattern-opacity;
   min-width: 100vw;
   width: auto;
   overflow: hidden;
