@@ -58,7 +58,7 @@ $v-theme-background: url(#{$theme_background}) !default;
 $v-hue: 0 !default;
 $v-saturation: -25 !default;
 $v-lightness: 0 !default;
-$V-page-max-width: 115vw !default;
+$V-page-max-width: 95vw !default;
 
 // palette colors -------------------------------
 
@@ -1169,13 +1169,13 @@ a {
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 660px) {
   .topic-avatar {
     margin-top: 1px;
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 950px) {
   body {
     background: $n;
   }
