@@ -141,7 +141,7 @@ a {
   h5,
   h6 {
     color: desaturate(
-      darken(reverse-lightness(rgba($main-background, 1)), 24%),
+      darken(reverse-lightness(rgba($main-background, 1)), 84%),
       100%
     );
   }
