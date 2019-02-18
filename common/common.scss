@@ -54,7 +54,7 @@ $i: !important;
 
 $v-font-weight: 300 !default;
 $v-font-size: 1.1em !default;
-$v-theme-background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 40%) !default;
+$v-theme-background: url(#{$theme_background}) !default;
 $v-hue: 0 !default;
 $v-saturation: -25 !default;
 $v-lightness: 0 !default;
@@ -70,7 +70,7 @@ $theme-base: hsl(
   !default;
 $theme-trim: $quaternary !default;
 
-$main-background:  radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 40%) !default;
+$main-background: rgba($header_background, 0.9) !default;
 $secondary-background: rgba($main-background, 0.5) !default;
 $tertiary-background: rgba($main-background, 0.8) !default;
 $text-base: reverse-lightness($secondary) !default;
@@ -125,7 +125,7 @@ a {
   ol {
     -webkit-text-stroke: 0.2px hsla(0, 0%, 50%, 1);
     color: desaturate(
-      darken(reverse-lightness(rgba($main-background, 1)), 32%),
+      darken(reverse-lightness(rgba($main-background, 1)), 82%),
       100%
     );
 

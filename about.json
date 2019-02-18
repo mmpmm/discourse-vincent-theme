@@ -6,8 +6,8 @@
         "vincent-background": "assets/vincent-background.svg"
    },
    "color_schemes": {
-       "Vincent Dark": {
-          "primary": "cccccc",
+       "Collider Dark": {
+          "primary": "ffffff",
           "secondary": "111111",
           "tertiary": "009dd8",
           "quaternary": "9E9E9E",
