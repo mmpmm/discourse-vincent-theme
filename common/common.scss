@@ -54,11 +54,11 @@ $i: !important;
 
 $v-font-weight: 300 !default;
 $v-font-size: 1.1em !default;
-$v-theme-background: url(#{$theme_background}) !important;
+$v-theme-background: url(#{$theme_background}) !default;
 $v-hue: 0 !default;
 $v-saturation: -25 !default;
 $v-lightness: 0 !default;
-$V-page-max-width: 95vw !default;
+$V-page-max-width: 115vw !default;
 
 // palette colors -------------------------------
 
