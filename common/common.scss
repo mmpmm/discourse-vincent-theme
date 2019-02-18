@@ -1772,7 +1772,7 @@ ul.nav.nav-pills {
 .layouts-nav-button > li > a.active,
 .admin-controls .nav.nav-pills li.active a {
   background: none;
-  color: #000;
+  color: #333;
 }
 
 .moderator .topic-body {
@@ -1906,6 +1906,7 @@ html.mobile-view.mobile-device {
 
   .list-controls .nav-pills > li {
     background: none;
+    color: #ccc;
   }
   .list-controls .nav-pills {
     padding: 0 0.5em;
