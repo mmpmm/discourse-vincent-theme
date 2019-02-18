@@ -1772,11 +1772,11 @@ ul.nav.nav-pills {
 .layouts-nav-button > li > a.active,
 .admin-controls .nav.nav-pills li.active a {
   background: none;
-  color: $link-color $i;
+  color: #000;
 }
 
 .moderator .topic-body {
-  border-left: 3px solid lighten(rgba(complement($theme-base), 0.65), 5%) $i;
+  border-left: 8px solid lighten(rgba(complement($theme-base), 0.65), 5%) $i;
 }
 
 .moderator .topic-meta-data {
