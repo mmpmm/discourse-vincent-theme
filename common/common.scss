@@ -124,11 +124,7 @@ a {
   ul,
   ol {
     -webkit-text-stroke: 0.2px hsla(0, 0%, 50%, 1);
-    color: desaturate(
-      darken(reverse-lightness(rgba($main-background, 1)), 82%),
-      100%
-    );
-
+    color: #ffffff; 
     a {
       -webkit-text-stroke: 0;
     }
