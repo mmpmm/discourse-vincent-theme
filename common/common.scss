@@ -82,8 +82,8 @@ $link-color: lighten($theme-base, 25%) !default;
 // settings -------------------------------
 
 $body-background-pattern-opacity: 0.25 !default;
-$body-background-gradient-opacity: 0.45 !default;
-$body-gradient-color-first: #ccc;
+$body-background-gradient-opacity: 0.95 !default;
+$body-gradient-color-first: #e1e1e1;
 $body-gradient-color-second: #fff; 
 $highlight-speed: #{$highlight_duration}s !default;
 $button-text-case: #{$button_text_case} !default;
