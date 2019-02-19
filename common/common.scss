@@ -2256,7 +2256,6 @@ $q-background: rgba(contrast($text-base), 0.5) !default;
   .topic-body.highlighted,
   #user-card {
     border-radius: 10px;
-    color: #ccc;
   }
 
   aside.quote {
@@ -2266,6 +2265,7 @@ $q-background: rgba(contrast($text-base), 0.5) !default;
 
     blockquote {
       border-radius: 0 0 10px 10px;
+      color: #ccc;
     }
   }
 
