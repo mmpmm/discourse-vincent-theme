@@ -884,7 +884,7 @@ section.post-menu-area {
 .alert,
 #share-link.visible,
 .wrap {
-  width: 90%;
+  max-width: $V-page-max-width;
 }
 
 // custom ---------------------------------------------
@@ -900,7 +900,7 @@ section.post-menu-area {
 }
 
 .wrap {
-  width: 1110px;
+  width: 90%;
 }
 
 #reply-control .d-editor-preview img:not(.thumbnail):not(.emoji),
