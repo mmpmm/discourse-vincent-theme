@@ -3,7 +3,7 @@ theme_background:
   description:
     en: If you wish to change the default background add the url of the new background above.
 dark_background_overlay:
-  default: false
+  default: true
   description:
     en: Enable this if you've set a custom background above.
 rounded_borders:
