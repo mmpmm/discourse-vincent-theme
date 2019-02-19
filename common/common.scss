@@ -1334,7 +1334,7 @@ blockquote {
 }
 
 .timeline-container .topic-timeline .timeline-handle {
-  background: desaturate($theme-base, 40%);
+  background: desaturate($theme-base, 20%);
 }
 
 .select-box-kit .select-box-kit-row.is-selected,
@@ -1991,13 +1991,13 @@ $q-background: rgba(contrast($text-base), 0.5) !default;
 
 //// ---------------------------------------
 .timeline-container {
-  margin-left: 675px;
+  margin-left: 1075px;
 
   @media all and (min-width: 1140px) {
-    margin-left: 675px;
+    margin-left: 1075px;
   }
   @media all and (min-width: 1250px) {
-    margin-left: 675px;
+    margin-left: 1075px;
   }
 }
 
