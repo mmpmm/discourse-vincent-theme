@@ -313,7 +313,7 @@ tr.topic-list-item-separator + .topic-list-item + .topic-list-item,
 .user-nav,
 .user-main .staff-counters {
   background: $main-background;
-  color: darken(desaturate(reverse-lightness($main-background), 100%), 5%);
+  color: darken(desaturate(reverse-lightness($main-background), 100%), 50%);
 }
 
 .topic-meta-data,
