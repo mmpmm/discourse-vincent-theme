@@ -1364,7 +1364,7 @@ table.category-list > thead,
 }
 
 .lazyYT.lazyYT-container {
-  width: calc(100% + 2.5em) $i;
+  width: 890px;
   padding-bottom: calc(56.25% + 1.4em) $i;
   left: -1.25em $i;
 }
@@ -1696,7 +1696,7 @@ h1.page-not-found {
 
 .slick-initialized,
 [dir] .slick-initialized {
-  width: calc(100% + 2.5em) $i;
+  width: 890px;
   left: -1.25em $i;
 
   > p:empty {
