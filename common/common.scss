@@ -954,8 +954,11 @@ body:before {
 }
 
 #background {
-  background: url('https://s3.amazonaws.com/aws-website-wwwblockcollidercom-xzf3z/4k-wallpaper-android-wallpaper-astro-1146134+(1).jpg');
-  width: 100%;
+  background: url('https://s3.amazonaws.com/aws-website-wwwblockcollidercom-xzf3z/bcu.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   overflow: hidden;
 }
 
