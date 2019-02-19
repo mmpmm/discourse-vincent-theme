@@ -58,7 +58,7 @@ $v-theme-background: url(#{$theme_background}) !default;
 $v-hue: 0 !default;
 $v-saturation: -20 !default;
 $v-lightness: 0 !default;
-$V-page-max-width: 100%; 
+$V-page-max-width: 95vw !default;
 
 // palette colors -------------------------------
 
@@ -884,7 +884,7 @@ section.post-menu-area {
 .alert,
 #share-link.visible,
 .wrap {
-  max-width: $V-page-max-width;
+  width: 100%;
 }
 
 // custom ---------------------------------------------
