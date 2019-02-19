@@ -1974,6 +1974,7 @@ $q-background: rgba(contrast($text-base), 0.5) !default;
 #topic-footer-buttons,
 .small-action {
   max-width: 100%;
+  background-color: #333;
 }
 
 #topic-title {
@@ -1991,13 +1992,13 @@ $q-background: rgba(contrast($text-base), 0.5) !default;
 
 //// ---------------------------------------
 .timeline-container {
-  margin-left: 1075px;
+  margin-left: 1175px;
 
   @media all and (min-width: 1140px) {
-    margin-left: 1075px;
+    margin-left: 1175px;
   }
   @media all and (min-width: 1250px) {
-    margin-left: 1075px;
+    margin-left: 1175px;
   }
 }
 
