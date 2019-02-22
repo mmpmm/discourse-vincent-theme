@@ -1050,7 +1050,7 @@ body:before {
 
 a {
   color: $link-color;
-  transition: all 0.25s ease $i;
+  transition: all 0.1s ease $i;
 
   &:visited,
   &:active,
@@ -1059,6 +1059,7 @@ a {
     color: $link-color;
   }
   &:hover {
+    text-decoration: underline;
     color: invert-contrast($text-base) $i;
   }
   &.mention {
@@ -1701,7 +1702,7 @@ h1.page-not-found {
 }
 
 .list-controls #create-topic {
-  opacity: 0.9;
+  opacity: 0.7;
 
   .d-icon {
     color: $theme-base;
@@ -2153,12 +2154,12 @@ $q-background: rgba(contrast($text-base), 0.5) !default;
 @if $dark_background_overlay == "true" {
   body:before {
     background: black;
-    opacity: 0.7;
+    opacity: 0.6;
     z-index: 0;
   }
 
   #background {
-    opacity: 0.85;
+    opacity: 0.65;
   }
 
   // fix IE EDGE backgrounds
