@@ -136,10 +136,7 @@ a {
   h4,
   h5,
   h6 {
-    color: desaturate(
-      darken(reverse-lightness(rgba($main-background, 1)), 84%),
-      100%
-    );
+    color: #ccc;
   }
 }
 
