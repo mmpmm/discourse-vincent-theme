@@ -2212,6 +2212,10 @@ $q-background: rgba(contrast($text-base), 0.5) !default;
   text-decoration: none !important;
 }
 
+.fancy-title {
+  text-decoration: none !important;
+}
+
 @if $rounded_borders == "true" {
   #post_1 .contents,
   .nav-pills > li.active > a,
