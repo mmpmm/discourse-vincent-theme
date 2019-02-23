@@ -1982,6 +1982,17 @@ $q-background: rgba(contrast($text-base), 0.5) !default;
   display: none;
 }
 
+//// ---------------------------------------
+.timeline-container {
+  margin-right: 975px;
+
+  @media all and (min-width: 1140px) {
+    margin-right: 975px;
+  }
+  @media all and (min-width: 1250px) {
+    margin-right: 975px;
+  }
+}
 
 .topic-map .buttons .btn {
   box-shadow: none;
