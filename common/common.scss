@@ -148,10 +148,6 @@ a {
   text-decoration: none;
 }
 
-.category-title-link .fancy-title {
-  text-decoration: none !important;
-}
-
 .main-content .nav-drop .selected-nav-item {
   line-height: 30px;
   height: 30px;
@@ -2211,6 +2207,11 @@ $q-background: rgba(contrast($text-base), 0.5) !default;
 .spoiled {
   -webkit-text-stroke: 0;
 }
+
+.category-title-link {
+  text-decoration: none !important;
+}
+
 
 @if $rounded_borders == "true" {
   #post_1 .contents,
