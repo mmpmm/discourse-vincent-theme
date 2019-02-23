@@ -1986,10 +1986,10 @@ $q-background: rgba(contrast($text-base), 0.5) !default;
 .timeline-container {
   margin-left: 10%;
 
-  @media all and (min-width: 100px) {
+  @media all and (min-width: 10px) {
     margin-left: 10%;
   }
-  @media all and (min-width: 100px) {
+  @media all and (min-width: 10px) {
     margin-left: 10%;
   }
 }
@@ -2133,7 +2133,7 @@ $q-background: rgba(contrast($text-base), 0.5) !default;
 //
 
 .timeline-container {
-  z-index: 2;
+  z-index: -2;
 }
 
 .select-kit.dropdown-select-box .dropdown-select-box-header:hover .d-icon {
