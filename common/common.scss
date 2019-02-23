@@ -2208,10 +2208,17 @@ $q-background: rgba(contrast($text-base), 0.5) !default;
   -webkit-text-stroke: 0;
 }
 
-a.category-title-link a.fancy-title a.title {
+.category-title-link {
   text-decoration: none !important;
 }
 
+.fancy-title {
+  text-decoration: none !important;
+}
+
+.title {
+  text-decoration: none !important;
+}
 
 @if $rounded_borders == "true" {
   #post_1 .contents,
