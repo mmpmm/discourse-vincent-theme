@@ -956,6 +956,7 @@ body:before {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  width: 100%;
   /* Full height */
 }
 
@@ -1981,17 +1982,6 @@ $q-background: rgba(contrast($text-base), 0.5) !default;
   display: none;
 }
 
-//// ---------------------------------------
-.timeline-container {
-  margin-left: 1175px;
-
-  @media all and (min-width: 1140px) {
-    margin-left: 1175px;
-  }
-  @media all and (min-width: 1250px) {
-    margin-left: 1175px;
-  }
-}
 
 .topic-map .buttons .btn {
   box-shadow: none;
