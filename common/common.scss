@@ -53,7 +53,7 @@ $i: !important;
 // Basics -------------------------------
 
 $v-font-weight: 300 !default;
-$v-font-size: 1.1em !default;
+$v-font-size: 1.2em !default;
 $v-theme-background: url(#{$theme_background}) !default;
 $v-hue: 0 !default;
 $v-saturation: -20 !default;
@@ -146,6 +146,10 @@ a {
 
 #banner #banner-content span {
   text-decoration: none;
+}
+
+.category-title-link .fancy-title {
+  text-decoration: none !important;
 }
 
 .main-content .nav-drop .selected-nav-item {
