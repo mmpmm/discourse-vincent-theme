@@ -1984,13 +1984,13 @@ $q-background: rgba(contrast($text-base), 0.5) !default;
 
 //// ---------------------------------------
 .timeline-container {
-  margin-right: 975px;
+  margin-right: 30%;
 
-  @media all and (min-width: 1140px) {
-    margin-right: 975px;
+  @media all and (min-width: 100px) {
+    margin-right: 30%;
   }
-  @media all and (min-width: 1250px) {
-    margin-right: 975px;
+  @media all and (min-width: 100px) {
+    margin-right: 30%;
   }
 }
 
