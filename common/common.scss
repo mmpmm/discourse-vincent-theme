@@ -1982,7 +1982,7 @@ $q-background: rgba(contrast($text-base), 0.5) !default;
   display: none;
 }
 
-//// ---------------------------------------
+//// --
 .timeline-container {
   margin-left: 10%;
 
@@ -2324,12 +2324,6 @@ $q-background: rgba(contrast($text-base), 0.5) !default;
 			height: 65px !important;
   }
 
-	.d-header #site-logo {
-		max-height: 65px;
-	}
-	img.logo-big {
-			height: 65px;
-	}
   // plugin support
   #whos-online {
     border-radius: 10px;
