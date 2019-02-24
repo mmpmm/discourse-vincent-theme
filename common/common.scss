@@ -2324,8 +2324,11 @@ $q-background: rgba(contrast($text-base), 0.5) !default;
 			height: 65px !important;
   }
 
-	img#site-logo {
-			height: 65px !important;
+	.d-header #site-logo {
+		max-height: 65px;
+	}
+	.d-header {
+			height: 65px;
 	}
   // plugin support
   #whos-online {
