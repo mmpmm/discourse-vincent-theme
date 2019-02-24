@@ -2,6 +2,9 @@
 <script type="text/discourse-plugin" version="0.8">
    //api.decorateWidget('home-logo:after', helper => {
      //return helper.h('div.custom-text', 'I appear after the logo');
-       api.changeWidgetSetting('home-logo', 'height', '65px');
   //});
+  Discourse._registerPluginCode('0.8', function (api) {
+       api.changeWidgetSetting('home-logo', 'size', '65px');
+       api.changeWidgetSetting('home-logo', 'height', '65px');
+    });
 </script> 
