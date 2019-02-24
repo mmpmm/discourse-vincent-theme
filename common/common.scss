@@ -2319,6 +2319,9 @@ $q-background: rgba(contrast($text-base), 0.5) !default;
     padding-top: 10px;
     margin-top: -10px;
   }
+	.d-header #site-logo {
+			height: 65px;
+	}
 
   // plugin support
   #whos-online {
