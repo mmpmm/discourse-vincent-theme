@@ -2320,15 +2320,15 @@ $q-background: rgba(contrast($text-base), 0.5) !default;
     margin-top: -10px;
   }
 
-  .navigation-topics .logo-big {
-			height: 65px !important;
-  }
-
 	.d-header .title {
-		display: flex;
-		align-items: center;
-		justify-content: center;
 		margin-top: 0;
+	}
+
+	.d-header #site-logo {
+		max-height: 140px !important;
+	}
+	.d-header {
+			height: 150px !important;
 	}
 
   // plugin support
