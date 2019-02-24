@@ -2319,6 +2319,11 @@ $q-background: rgba(contrast($text-base), 0.5) !default;
     padding-top: 10px;
     margin-top: -10px;
   }
+
+  .navigation-topics .logo-big {
+			height: 65px !important;
+  }
+
 	img#site-logo {
 			height: 65px !important;
 	}
