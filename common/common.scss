@@ -2324,6 +2324,13 @@ $q-background: rgba(contrast($text-base), 0.5) !default;
 			height: 65px !important;
   }
 
+	.d-header .title {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 0;
+	}
+
   // plugin support
   #whos-online {
     border-radius: 10px;
