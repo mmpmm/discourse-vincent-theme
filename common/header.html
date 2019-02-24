@@ -1,1 +1,6 @@
 <canvas id="background"></canvas>
+<script type="text/discourse-plugin" version="0.8">
+   api.decorateWidget('home-logo:after', helper => {
+     return helper.h('div.custom-text', 'I appear after the logo');
+     });
+</script> 
