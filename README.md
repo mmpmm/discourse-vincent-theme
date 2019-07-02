@@ -951,7 +951,7 @@ body:before {
 }
 
 #background {
-  background: url('https://s3.amazonaws.com/aws-website-wwwblockcollidercom-xzf3z/emb_nation_8bit.png') no-repeat center center fixed;
+  background: url('https://s3.amazonaws.com/aws-website-wwwblockcollidercom-xzf3z/emb_nation_8bit.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -2335,3 +2335,9 @@ $q-background: rgba(contrast($text-base), 0.5) !default;
   height: 60px;
 }
 
+.views.sortable.num, .num.views {
+    display: none;
+}
+li.secondary {
+    display: none;
+}
