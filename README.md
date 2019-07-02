@@ -2338,6 +2338,10 @@ $q-background: rgba(contrast($text-base), 0.5) !default;
 .views.sortable.num, .num.views {
     display: none;
 }
-li.secondary {
+
+.topic-map .map li:nth-of-type(4) {
+    display: none;
+}
+.topic-map .map li:nth-of-type(5) {
     display: none;
 }
